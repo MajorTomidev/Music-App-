@@ -10,4 +10,4 @@ def album_page(request):
         'all_albums': all_albums,
         'all_songs': all_songs
     }
-    return render(request, 'music/album.html', context)
+    return render(request, 'music/home.html', context)

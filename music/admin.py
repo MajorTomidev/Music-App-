@@ -10,3 +10,4 @@ class SongAdmin(admin.ModelAdmin):
 
 admin.site.register(Album, AlbumAdmin)
 admin.site.register(Song, SongAdmin)
+
